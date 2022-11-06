@@ -1,4 +1,4 @@
-package com.netvalue.kevinjong.demo.entities;
+package com.netvalue.kevinjong.demo.models;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

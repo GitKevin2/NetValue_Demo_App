@@ -1,8 +1,7 @@
 package com.netvalue.kevinjong.demo.controllers;
 
 
-import com.netvalue.kevinjong.demo.entities.ChargePoint;
-import com.netvalue.kevinjong.demo.entities.Customer;
+import com.netvalue.kevinjong.demo.models.Customer;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;

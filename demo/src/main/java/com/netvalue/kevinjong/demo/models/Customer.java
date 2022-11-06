@@ -1,11 +1,7 @@
-package com.netvalue.kevinjong.demo.entities;
+package com.netvalue.kevinjong.demo.models;
 
 
 import javax.persistence.*;
-import java.util.LinkedList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
 
 @Entity
 @Table (name = "customers")

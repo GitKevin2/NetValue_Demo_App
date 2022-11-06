@@ -1,9 +1,7 @@
-package com.netvalue.kevinjong.demo.entities;
+package com.netvalue.kevinjong.demo.models;
 
 import javax.persistence.*;
 import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.util.Date;
 
 @Entity
 @Table(name = "charging_sessions")
