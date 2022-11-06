@@ -1,0 +1,19 @@
+
+# Read Hello:
+curl -i -X GET localhost:8080/hello
+
+# Add a user:
+# User 1
+curl -i -H "Content-Type: application/json" -X POST -d '{
+    "name": "John Doe",
+    "statement":"My name is JJohn and this is my statement"
+    }' localhost:8080/pledges
+
+#User 2
+curl -i -H "Content-Type: application/json" -X POST -d '{
+    "name": "John Doe",
+    "statement":"My name is John and this is my statement"
+    }' localhost:8080/pledges
+
+#Get all pledges
+curl -i -H "Content-Type: application/json" -X GET localhost:8080/pledges
